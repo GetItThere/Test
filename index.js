@@ -1,4 +1,5 @@
-const myEmojis = ["👨‍💻", "⛷", "🍲"]
+// I deleted an icon just to see how branches work
+const myEmojis = ["👨‍💻", "⛷"]
 
 function renderEmojis() {
     const emojiContainer = document.getElementById("emoji-container")
@@ -8,6 +9,11 @@ function renderEmojis() {
         emoji.textContent = myEmojis[i]
         emojiContainer.append(emoji)
     }
+}
+
+//just to see how branchew work
+function new_invented(){
+  return null
 }
 
 renderEmojis()
